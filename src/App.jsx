@@ -13,8 +13,9 @@ function App() {
         <Carros modelo="Civic" cor="prata"/><br/>
         <hr/>
 
-        <h2>Contém Eventos</h2>
+        <h2>Contém Eventos | useState</h2>
         <Evento nome="Giovanny Matos"/><br/>
+        
         <h3>Evento onSubmit</h3>
         <EventForm />
       </div>

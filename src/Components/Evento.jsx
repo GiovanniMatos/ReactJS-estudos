@@ -1,8 +1,14 @@
+import Button from './Eventos/Button'
+
 function Evento({nome}){
+    function alertEvent(){
+        alert(`Me chamo ${nome}, este é um Evento em props`)
+    }
     return (
         <>
         <p>Clique para ativar Evento:</p>
-        <button onClick={()=>{alert(`Olá ${nome}, primeiro Alert com React :)`)}}>Ativar!</button>
+        
+        <Button event={alertEvent} text="Ativar"/>
         </>
     )
 }
